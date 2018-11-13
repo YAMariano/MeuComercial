@@ -5,7 +5,8 @@
 
 	<persistence-unit name="meu_comercial">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<class>modelo.Estado</class>
+		<class>Modelo.Estado</class>
+		
 
 		<properties>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/meu_comercial" />
